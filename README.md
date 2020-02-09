@@ -13,7 +13,7 @@ There are currently 5 rarities in SimplePets, these include;
 4. Legendary
 5. Mythical
 
-Each rarity can be either be obtained randomly through purchasing a random pet
+Each rarity can either be obtained randomly through purchasing a random pet
 or directly by clicking on the specific rarity.
 
 ## List of Available Pets

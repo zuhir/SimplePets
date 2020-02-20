@@ -23,15 +23,18 @@ or directly by clicking on the specific rarity.
 2. Bee Pet
 3. Ladybug Pet
 4. Pig Pet
+5. Fish Pet
 #### Rare
 1. Horned Beetle Pet
 2. Baby Chick Pet
+3. Villager Pet
 #### Super Rare
 1. Mr Penguin Pet
 2. Magnet Pet
 #### Legendary
 1. Lion Pet
 2. Giraffe Pet
+3. Knight Pet
 #### Mythical
 1. Unicorn Pet
 2. Gamer Pet
@@ -46,9 +49,13 @@ Ladybug Pet - **Regeneration** - Gives the player regneration.
 
 Pig Pet - **Shaken Bacon** - Spawns falling pigs.
 
+Fish Pet - **Gills** - Grants the player water breathing
+
 Horned Beetle Pet - **Charge** - Throws the player in a charge type motion.
 
 Baby Chick Pet - **Slowfall** - Allows the player to fall slowly for a few seconds.
+
+Villager Pet - **Trade** - Allows the player to view random trades
 
 Mr Penguin Pet - **Snowball Shotgun** - Shoots snowballs like a shotgun.
 
@@ -57,6 +64,8 @@ Magnet Pet - **Magnetize** - Picks up all items around the player.
 Lion Pet - **Roar** - Kills all mobs in a 5 block radius (excludes players).
 
 Giraffe Pet - **Digestion** - Allows the eating of leaves and gives random items to the player.
+
+Knight Pet - **Warcry** - Grants the player speed, strength and resistance
 
 Unicorn Pet - **Fly** - Allows flight for a few moments.
 

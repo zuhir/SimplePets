@@ -24,6 +24,7 @@ or directly by clicking on the specific rarity.
 3. Ladybug Pet
 4. Pig Pet
 5. Fish Pet
+6. Cake Pet
 #### Rare
 1. Horned Beetle Pet
 2. Baby Chick Pet
@@ -49,13 +50,15 @@ Ladybug Pet - **Regeneration** - Gives the player regneration.
 
 Pig Pet - **Shaken Bacon** - Spawns falling pigs.
 
-Fish Pet - **Gills** - Grants the player water breathing
+Fish Pet - **Gills** - Grants the player water breathing.
+
+Cake Pet - **Sugar Rush** - Sets the players hunger to full.
 
 Horned Beetle Pet - **Charge** - Throws the player in a charge type motion.
 
 Baby Chick Pet - **Slowfall** - Allows the player to fall slowly for a few seconds.
 
-Villager Pet - **Trade** - Allows the player to view random trades
+Villager Pet - **Trade** - Allows the player to view random trades.
 
 Mr Penguin Pet - **Snowball Shotgun** - Shoots snowballs like a shotgun.
 
@@ -65,7 +68,7 @@ Lion Pet - **Roar** - Kills all mobs in a 5 block radius (excludes players).
 
 Giraffe Pet - **Digestion** - Allows the eating of leaves and gives random items to the player.
 
-Knight Pet - **Warcry** - Grants the player speed, strength and resistance
+Knight Pet - **Warcry** - Grants the player speed, strength and resistance.
 
 Unicorn Pet - **Fly** - Allows flight for a few moments.
 

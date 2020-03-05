@@ -25,13 +25,17 @@ or directly by clicking on the specific rarity.
 4. Pig Pet
 5. Fish Pet
 6. Cake Pet
+7. Cat Pet
 #### Rare
 1. Horned Beetle Pet
 2. Baby Chick Pet
 3. Villager Pet
+4. Crafting Table Pet
+5. Enderchest Pet
 #### Super Rare
 1. Mr Penguin Pet
 2. Magnet Pet
+3. Enderman Pet
 #### Legendary
 1. Lion Pet
 2. Giraffe Pet
@@ -54,15 +58,23 @@ Fish Pet - **Gills** - Grants the player water breathing.
 
 Cake Pet - **Sugar Rush** - Sets the players hunger to full.
 
+Cat Pet - **Flee** - Grants the player speed.
+
 Horned Beetle Pet - **Charge** - Throws the player in a charge type motion.
 
 Baby Chick Pet - **Slowfall** - Allows the player to fall slowly for a few seconds.
 
 Villager Pet - **Trade** - Allows the player to view random trades.
 
+Crafting Table Pet - **Master Builder** - Opens a crafting table
+
+Enderchest Pet - **Rift** - Opens the players enderchest
+
 Mr Penguin Pet - **Snowball Shotgun** - Shoots snowballs like a shotgun.
 
 Magnet Pet - **Magnetize** - Picks up all items around the player.
+
+Enderman Pet - **Teleport** - Shoots a beam to which the player is teleported to the end of it.
 
 Lion Pet - **Roar** - Kills all mobs in a 5 block radius (excludes players).
 

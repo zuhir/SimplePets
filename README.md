@@ -1,1 +1,0 @@
-<a href="https://github.com/RandomTomato/SimplePets/wiki">Wiki</a>

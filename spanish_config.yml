@@ -1,0 +1,373 @@
+#
+# SimplePets Config
+# Created by RandomTomato
+#
+prefix: '&6&lSimplepets'
+text-color: '&6'
+menu-name: '&8&lSimplepets'
+pet-info-menu-name: '&8&lPet Informacion'
+pet-companion-menu-name: '&8&lMenu de tu acompañante'
+#
+# Base Command (The message that is sent when a player runs /pets).
+#
+pets-message:
+- ''
+- '        &7✦  &6&lSimplepets Commandos &7✦'
+- ''
+- '&6/pets - El comando base para SimpleInventoryPets'
+- '&6/pets gui - Abre la gui para SimpleInventoryPets'
+- '&6/pets menu add/remove - agrega o elimina el menú de mascotas a un huevo de tortuga'
+- '&6/pets tokens add/remove/set (player) (amount) - Modifica tokens de mascota de los jugadores'
+- ''
+- '       &6SimplePets created by RandomTomato'
+- ''
+#
+# General Messages (Various messages that are sent to the player when executing commands).
+#
+no-permission: 'No tienes permiso para ejecutar este comando!'
+reload: 'Configuration recargada'
+reload-sound: true
+turtle-egg: 'Debes estar mirando un huevo de tortuga para que este comando funcione!'
+invalid-args: 'Los argumentos que ha proporcionado para este comando son incorrectos.'
+same-location: 'Ejecuta este comando en la misma ubicación que anteriormente'
+successful-add: 'Ha creado correctamente un menú en el que se puede hacer clic'
+successful-remove: 'Has eliminado con éxito un menú en el que se puede hacer clic'
+tokens-no-player-found: 'El nombre del jugador que proporcionó nunca ha iniciado sesión en este servidor!'
+tokens-number-convert-error: 'El número que proporcionó no se puede configurar'
+tokens-player-provided: 'No has proporcionado un nombre de jugador!'
+tokens-no-number-provided: 'No has proporcionado un número'
+insufficient-funds: '¡No tienes los fondos suficientes para comprar tokens!'
+insufficient-tokens: 'No tienes suficientes fichas de mascotas para comprar esto!'
+zero-tokens: 'No puedes comprar 0 tokens'
+#
+# Armorstand Settings (The Title and Subtitle used when adding a clickable menu).
+#
+armorstand-name: '&6&lMENU DE MASCOTA'
+armorstand-lore: '&7Haga clic derecho para abrir el menú de mascotas'
+#
+# Pets GUI Item Type
+# WARNING: Please do not set any these items to be the same as another as this will cause errors.
+#
+random-item-type: 'TURTLE_EGG'
+common-item-type: 'LIME_STAINED_GLASS_PANE'
+rare-item-type: 'LIGHT_BLUE_STAINED_GLASS_PANE'
+super-rare-item-type: 'PINK_STAINED_GLASS_PANE'
+legendary-item-type: 'YELLOW_STAINED_GLASS_PANE'
+mythical-item-type: 'RED_STAINED_GLASS_PANE'
+#
+# Pet GUI Names
+#
+random-item-name: '&6&lPet aleatorio'
+common-item-name: '&a&lPet comun'
+rare-item-name: '&b&lPet raro'
+super-rare-item-name: '&d&lPet super raro'
+legendary-item-name: '&e&lPet legendario'
+mythical-item-name: '&c&lPet mitico'
+purchase-tokens-item-name: '&6&lComprar Tokens'
+plus-tokens-item-name: '&6&lPlus Tokens'
+minus-tokens-item-name: '&6&lMinus Tokens'
+your-stats-name: '&6&lTu info'
+available-pets-name: '&6&lTodas las mascotas disponibles'
+return-name: '&6&lDevolver'
+#
+# Pet GUI Lores
+# WARNING: Placeholders will only work with their respective item (%common_cost% will not work with any other rarity).
+#
+random-item-lore:
+- '&7Costo: %random_cost% Pet Tokens'
+- ''
+- ''
+common-item-lore:
+- '&7Costo: %common_cost% Pet Tokens'
+- ''
+- ''
+rare-item-lore:
+- '&7Costo: %rare_cost% Pet Tokens'
+- ''
+- ''
+super-rare-item-lore:
+- '&7Costo: %super_rare_cost% Pet Tokens'
+- ''
+- ''
+legendary-item-lore:
+- '&7Costo: %legendary_cost% Pet Tokens'
+- ''
+- ''
+mythical-item-lore:
+- '&7Costo: %mythical_cost% Pet Tokens'
+- ''
+- ''
+purchase-tokens-item-lore:
+- '&7Cantidad: %amount%'
+- '&7Costo: %cost%'
+- ''
+- '&eClick para comprar %amount% tokens'
+plus-tokens-item-lore:
+- '&7&lClick izquierdo: &7+1 Token'
+- '&7&lClick derecho: &7+5 Tokens'
+- ''
+- ''
+minus-tokens-item-lore:
+- '&7&lClick izquierdo: &7-1 Token'
+- '&7&lClick derecho: &7-5 Tokens '
+- ''
+- ''
+your-stats-lore:
+- '&7&lPet Tokens: &7%your_tokens%'
+available-pets-lore:
+- '&7Puedes ver la info'
+- '&7de cada pet.'
+- ''
+- '&eClick aquí'
+return-lore:
+- '&eClick para volver al menú principal!'
+#
+# Pet Prices (Change the token cost of a pet's rarity and if players can purchase tokens using in-game cash).
+#
+random-pet-token-cost: 5
+common-pet-token-cost: 5
+rare-pet-token-cost: 10
+super-rare-pet-token-cost: 12
+legendary-pet-token-cost: 30
+mythical-pet-token-cost: 50
+enable-token-purchase: true
+token-cost: 500
+#
+# Pet Names (The names that are displayed on the pet heads)
+# WARNING: Do not have two pets sharing the same name! This will cause errors
+# NOTE: For consistency please keep the colours the same as the rarities
+# (This should not be changed unless you are translating into another language).
+#
+rabbit-name: '&a&lConejo'
+bee-name: '&a&lAbeja'
+ladybug-name: '&a&lMariquita'
+pig-name: '&a&lCerdo'
+fish-name: '&a&lPez'
+cake-name: '&a&lPastel'
+cat-name: '&a&lGato'
+hornedbeetle-name: '&b&lEscarabajo cornudo'
+babychick-name: '&b&lPollo bebe'
+villager-name: '&b&lAldeano'
+crafting-table-name: '&b&lMesa de crafteo pet'
+ender-chest-name: '&b&lEnderchest Pet'
+dog-name: '&b&lPerro'
+mrpenguin-name: '&d&lDoctor pinguino'
+magnet-name: '&d&lIman'
+enderman-name: '&d&lEnderman Pet'
+lion-name: '&e&lLeon'
+giraffe-name: '&e&lJirafa'
+knight-name: '&e&lCaballero'
+werewolf-name: '&e&lHombre lobo'
+unicorn-name: '&c&lUnicornio'
+gamer-name: '&c&lGamer'
+#
+# Pet Lores (Lores that are displayed under the pet name).
+#
+rabbit-lore: 
+- '&7conejito de peluche esponjoso solo para ti!'
+- '&7 '
+- '&7Habilidad: &aPoder de salto'
+- '&7Cooldown: &a10s'
+- '&7Rarity: &aComun'
+bee-lore: 
+- '&7Una abeja muy ocupada de hecho!'
+- '&7 '
+- '&7Habilidad: &aFlower Power'
+- '&7Cooldown: &a10s'
+- '&7Rareza: &aComun'
+ladybug-lore: 
+- '&7¿Eh, una mariquita? ¿No tienes suerte?'
+- '&7 '
+- '&7Habilidad: &aRegeneracion'
+- '&7Cooldown: &a30s'
+- '&7Rareza: &aComun'
+pig-lore: 
+- '&7Que el cerdo te acompañe!'
+- '&7 '
+- '&7Habilidad: &aTocino agitado'
+- '&7 Cooldown: &a30s'
+- '&7Rareza: &aCommon'
+fish-lore: 
+- '&7¡Los peces son amigos, no comida!'
+- '&7 '
+- '&7Habilidad: &aBranquias'
+- '&7Cooldown: &a12s'
+- '&7Rareza: &aComun'
+cake-lore: 
+- '&7Esto va a ser pan comido!'
+- '&7 '
+- '&7Habilidad: &aPico de azúcar'
+- '&7Cooldown: &a30s'
+- '&7Rareza: &aComun'
+cat-lore: 
+- '&7Tienes gato para ser gatito'
+- '&7 '
+- '&7Habilidad: &aHuir'
+- '&7Cooldown: &a15s'
+- '&7Rareza: &aComun'
+hornedbeetle-lore: 
+- '&7No te interpongas en el camino de este escarabajo'
+- '&7 '
+- '&7Habilidad: &bCargar'
+- '&7Cooldown: &b20s'
+- '&7Rareza: &bRaro'
+babychick-lore: 
+- '&7Le gusto a las chicas'
+- '&7 '
+- '&7Habilidad: &bSlowfall'
+- '&7Cooldown: &b10s'
+- '&7Rareza: &bRare'
+villager-lore: 
+- '&7Hmmmmm......'
+- '&7 '
+- '&7Habilidad: &bTradeo'
+- '&7Cooldown: &b30s'
+- '&7Rareza: &bRaro'
+crafting-table-lore: 
+- '&7¿Que debo hacer hoy?'
+- '&7 '
+- '&7Habilidad: &bMaestro constructor'
+- '&7Cooldown: &b10s'
+- '&7Rareza: &bRaro'
+ender-chest-lore: 
+- '&7Almacene sus artículos sobre la marcha!'
+- '&7 '
+- '&7Habilidad: &bGuardar'
+- '&7Cooldown: &b30s'
+- '&7Rareza: &bRaro'
+dog-lore:
+- '&7Mejor amigo del hombre'
+- '&7 '
+- '&7Habilidad: &bBuscar'
+- '&7Cooldown: &b60s'
+- '&7Rareza: &bRaro'
+mrpenguin-lore: 
+- '&7Solo un pingüino con una escopeta...'
+- '&7 '
+- '&7Habilidad: &dEscopeta de bola de nieve'
+- '&7Cooldown: &d10s'
+- '&7Rareza: &dSuper Raro'
+magnet-lore: 
+- '&7Los opuestos se atraen.'
+- '&7 '
+- '&7Habilidad: &dAtraer'
+- '&7Cooldown: &d20s'
+- '&7Rareza: &dSuper Raro'
+enderman-lore: 
+- '&7Teletransportación en todo el país!'
+- '&7 '
+- '&7Habilidad: &dTeletransportacion'
+- '&7Cooldown: &d60s'
+- '&7Rareza: &dSuper Raro'
+lion-lore: 
+- '&7El rey de la jungla te guarda'
+- '&7 '
+- '&7Habilidad: &eRugido'
+- '&7Cooldown: &e60s'
+- '&7Rareza: &eLegendario'
+giraffe-lore: 
+- '&7Esta jirafa solo quiere comer hojas ... muchas hojas'
+- '&7 '
+- '&7Habilidad: &eDigestion'
+- '&7Cooldown: &e0s'
+- '&7Rareza: &eLegendario'
+knight-lore: 
+- '&7Quién está listo para recibir un castigo?'
+- '&7 '
+- '&7Habilidad: &eGrito de guerra'
+- '&7 Cooldown: &e120s'
+- '&7Rareza: &eLegendario'
+werewolf-lore:
+- '&7Cada vez que brilla la luna, vivo!'
+- '&7 '
+- '&7Habilidad: &eMirar detras'
+- '&7Cooldown: &e40s'
+- '&7Rareza: &eLegendario'
+unicorn-lore: 
+- '&7El mito se hace realidad.'
+- '&7 '
+- '&7Habilidad:: &cVolar'
+- '&7Cooldown: &c240s'
+- '&7Rareza: &cMitica'
+gamer-lore: 
+- '&7La culpa es del lag'
+- '&7 '
+- '&7Habilidad: &cGamer Moment'
+- '&7Ability Cooldown: &c240s'
+- '&7&7Rareza: &cMitica'
+#
+# Pet Ability Cooldown Times (Time in seconds)
+# WARNING: To prevent errors DO NOT set the Unicorn or Gamer pet to be lower than 20s (Gamer ability recommended to be 240s+ as if this ability is used often it can cause lag)
+#
+rabbit-cooldown: 10
+bee-cooldown: 10
+ladybug-cooldown: 30
+pig-cooldown: 30
+fish-cooldown: 12
+cake-cooldown: 30
+cat-cooldown: 15
+hornedbeetle-cooldown: 20
+babychick-cooldown: 10
+villager-cooldown: 30
+crafting-table-cooldown: 10
+ender-chest-cooldown: 30
+dog-cooldown: 60
+mrpenguin-cooldown: 0
+magnet-cooldown: 20
+enderman-cooldown: 60
+lion-cooldown: 10
+giraffe-cooldown: 0
+knight-cooldown: 20
+werewolf-cooldown: 10
+unicorn-cooldown: 600
+gamer-cooldown: 240
+#
+# Pet Hot Bar Messages (Messages that are displayed on the hotbar when a pet ability is used).
+#
+rabbit-hotbar: '&a&lTu conejo te otorgó el impulso de salto!'
+bee-hotbar: '&a&lTu abeja ocupada te ha recogido una flor especial!'
+ladybug-hotbar: '&a&lTu mariquita te concedió la regeneración!'
+pig-hotbar: '&a&lEs tocino shakin!'
+fish-hotbar: '&a&lParece que puedes respirar momentáneamente bajo el agua!'
+cake-hotbar: '&a&lMmmmmmmmm pastel de fin95...'
+cat-hotbar: '&a&lMeow!'
+hornedbeetle-hotbar: '&b&lTu escarabajo cornudo te permitió cargar!'
+babychick-hotbar: '&b&lTu pollito te atrapó mientras estabas cayendo'
+villager-hotbar: '&b&lMira mis productos'
+crafting-table-hotbar: '&b&lElaborar es más barato que la terapia'
+ender-chest-hotbar: '&b&lSe abre una grieta en el tiempo y el espacio, ¿debo poner mis artículos allí??'
+dog-hotbar: '&b&l'
+mrpenguin-hotbar: '&d&lTu pingüino disparó su escopeta!'
+magnet-hotbar: '&d&lZzzzzzzzz'
+enderman-hotbar: '&d&lParpadea y me extrañarás..'
+lion-hotbar: '&e&lTu león ha matado a todos los mobs cercanos'
+giraffe-hotbar: '&e&lTu jirafa ha comido hojas'
+knight-hotbar: '&e&lSoy imparable!'
+werewolf-hotbar: '&e&l'
+unicorn-hotbar: '&c&lTu unicornio te dio la habilidad de volar!'
+gamer-hotbar: '&c&lActivando hacks!!!'
+#
+# Pet Companion Names
+#
+rabbit-companion-name: '&aConejo'
+bee-companion-name: '&aAveja'
+ladybug-companion-name: '&aMariquita'
+pig-companion-name: '&aCerdo'
+fish-companion-name: '&aPez'
+cake-companion-name: '&aPastel mascota'
+cat-companion-name: '&aGato'
+hornedbeetle-companion-name: '&bHorned Beetle Pet'
+babychick-companion-name: '&bPollo bebe'
+villager-companion-name: '&bAldeano'
+crafting-table-companion-name: '&bMesa de crafteo'
+ender-chest-companion-name: '&bEnderchest'
+dog-companion-name: '&bPerro'
+mrpenguin-companion-name: '&dDoctor pinguino'
+magnet-companion-name: '&dIman'
+enderman-companion-name: '&dEnderman'
+lion-companion-name: '&eLeon'
+giraffe-companion-name: '&eJirafa'
+knight-companion-name: '&eCaballero'
+werewolf-companion-name: '&eHombre lobo'
+unicorn-companion-name: '&cUnicornio'
+gamer-companion-name: '&cGamer'
